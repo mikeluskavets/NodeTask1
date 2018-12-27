@@ -17,7 +17,7 @@ let db = {
         return index === null ? this.result[index] : this.result;
     }
 };
-
+//test
 db.init();
 
 const server = http.createServer((request, response) => {
